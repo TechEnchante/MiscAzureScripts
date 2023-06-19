@@ -1,3 +1,8 @@
+# Script Name: ResourceCheckerandVMStatusChanger
+# Author: Adam Roberts
+# Date: Created 06/17/2023
+# Description: This PowerShell script provides an interactive interface for managing Azure resources, focusing on VMs and AKS clusters. It enables viewing resources by subscription, checking VM and AKS statuses, displaying regional quota usage, and offers functionalities to start or stop VMs with user confirmation.
+
 # Import necessary modules
 Import-Module Az.Accounts
 Import-Module Az.Compute
